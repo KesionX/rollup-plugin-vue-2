@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "target": "node"
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/transform-runtime"
+  ],
+  "retainLines": true,
+  "comments": true
+}

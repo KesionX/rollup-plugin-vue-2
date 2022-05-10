@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production"
+  },
+  "main": "./dist/library.ssr.js",
+  "module": "./dist/library.esm.js",
+  "browser": "./dist/library.js",
+  "unpkg": "./dist/library.js",
+  "devDependencies": {
+    "rollup": "^0.59.4",
+    "rollup-plugin-css-only": "^0.4.0",
+    "rollup-plugin-vue": "link:../.."
+  }
+}
